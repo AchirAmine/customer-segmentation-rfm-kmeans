@@ -7,7 +7,10 @@ __pycache__/
 .ipynb_checkpoints/
 data/*
 !data/.gitkeep
-models/*.joblib
+models/*
+!models/.gitkeep
+!models/model_v1.joblib
+!models/rfm_kmeans_pipeline.joblib
 .env
 .coverage
 htmlcov/
